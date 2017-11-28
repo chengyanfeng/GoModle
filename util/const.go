@@ -12,6 +12,7 @@ const (
 	Total string = "total"
 	Cat string = "cat"
 	Media string = "media"
+	Cheng string ="cheng"
 )
 
 const (
