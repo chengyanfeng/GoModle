@@ -26,6 +26,8 @@ func (this *TestController) Getstudent(){
 
 	a:=util.D("test").Find(queryp).All()
 	fmt.Print(a)
+		//分页
+	util.D("test").Find(queryp).Page(0,3).All()
 	util.D(util.Cheng).Explain()
 	this.Ctx.WriteString(util.JsonEncode(stduenttree))
 
